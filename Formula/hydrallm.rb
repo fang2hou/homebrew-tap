@@ -2,9 +2,9 @@
 # frozen_string_literal: true
 
 class Hydrallm < Formula
-  desc "High-performance LLM API proxy with automatic retry and fallback"
+  desc "CLI application"
   homepage "https://github.com/fang2hou/hydrallm"
-  version "0.0.1"
+  version "1.0.2"
   license "MIT"
 
   livecheck do
@@ -14,23 +14,23 @@ class Hydrallm < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/fang2hou/hydrallm/releases/download/v0.0.1/hydrallm-darwin-amd64.tar.gz"
-      sha256 "2b17230f47502522efe8f3c55bb0edfb53e772b854b924c90b097d3b3c77f37f"
+      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.2/hydrallm-darwin-amd64.tar.gz"
+      sha256 "e7752b9c0dbf3a9dcc96dec5080c6b4b3ec6909257540d3b303e07f7c2c25d0b"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/fang2hou/hydrallm/releases/download/v0.0.1/hydrallm-darwin-arm64.tar.gz"
-      sha256 "5fa7551e1bda4dfd211635fad7f12cc289658cced5d78c1bd70682e4936d0d67"
+      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.2/hydrallm-darwin-arm64.tar.gz"
+      sha256 "0959aa4efe0764d5cd636d56d43351c5ea3203b4ccce056d78cb890a1811f9a7"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/fang2hou/hydrallm/releases/download/v0.0.1/hydrallm-linux-amd64.tar.gz"
-      sha256 "d6ee406e4c61b27d89cf91b082277e2a65c6a63a3cdaac695cb43f7c672c43ec"
+      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.2/hydrallm-linux-amd64.tar.gz"
+      sha256 "1b59094a0dc257af1f897682c926fc203f5a094edbc2e13a7a163abb7b921ab7"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/fang2hou/hydrallm/releases/download/v0.0.1/hydrallm-linux-arm64.tar.gz"
-      sha256 "b01de8d0936edbcde7d326d4955ad0b12489ed28c17c83547842e0066c7f5b58"
+      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.2/hydrallm-linux-arm64.tar.gz"
+      sha256 "d432cdc50fde8b79442feb4da4410d0611c77856c036703a4987d6ded26bd214"
     end
   end
 
