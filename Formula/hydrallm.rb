@@ -4,7 +4,7 @@
 class Hydrallm < Formula
   desc "High-performance LLM API proxy with automatic retry and fallback"
   homepage "https://github.com/fang2hou/hydrallm"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   livecheck do
@@ -14,23 +14,23 @@ class Hydrallm < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.3/hydrallm-darwin-amd64.tar.gz"
-      sha256 "88aa619eb229ae29ecc921ca347d712ff69dceb7a3ad1749f92c1f45ecdd121c"
+      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.4/hydrallm-darwin-amd64.tar.gz"
+      sha256 "8d0b72c49a9ae8c7b4d7c755506e95cb1ec1dc592f56665607ad9f66b7cd3a53"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.3/hydrallm-darwin-arm64.tar.gz"
-      sha256 "c5dbbd94486447ed550885aa8abf32305cd221b8c622f2a8f4bf15ca7f58ab06"
+      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.4/hydrallm-darwin-arm64.tar.gz"
+      sha256 "4d7a11560b8a029b5d931339417b7bf4c34d8a7cc386fb2f8ac9f2690a863cac"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.3/hydrallm-linux-amd64.tar.gz"
-      sha256 "b89a709a62a1bea7850ac8e6c1efcb36c0af4f01555be8a2fbcfa46750dcfcba"
+      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.4/hydrallm-linux-amd64.tar.gz"
+      sha256 "e42a5820dcf18bfc3fcfeea81d2e85a943d5d1534c0b842cc3b0c050fa796478"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.3/hydrallm-linux-arm64.tar.gz"
-      sha256 "4451dce86f62d163027ba5255bd6f86d757ef103e739e2c6b7fae9e17ecc5218"
+      url "https://github.com/fang2hou/hydrallm/releases/download/v1.0.4/hydrallm-linux-arm64.tar.gz"
+      sha256 "8a183d9df87f38b5698727603ee0355ca1b54f9691bee5e100b691f15813a128"
     end
   end
 
