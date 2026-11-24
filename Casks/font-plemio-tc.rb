@@ -1,6 +1,6 @@
 cask "font-plemio-tc" do
-  version "0.1.0"
-  sha256 "5bc70e589f8969712588cca7b25f1d714b093aa14befb38ec9f925f073cbfa30"
+  version "0.1.1"
+  sha256 "5e40ce29bccf212be61062b4bbe1958352b5a9f5d79c6d2e68f58eb3c8f264b6"
 
   url "https://github.com/fang2hou/Plemio/releases/download/v#{version}/Plemio-TC.zip"
   name "Plemio TC"

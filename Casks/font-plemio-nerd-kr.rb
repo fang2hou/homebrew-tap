@@ -1,6 +1,6 @@
 cask "font-plemio-nerd-kr" do
-  version "0.1.0"
-  sha256 "7c8ec866cf3368183bed46b8d5baff13d4831a424e726b4f922367f31128ae8e"
+  version "0.1.1"
+  sha256 "6600bd3d9c34a07667925831ae80e2cba31fed044d9c0d4c8ccded56a076e36e"
 
   url "https://github.com/fang2hou/Plemio/releases/download/v#{version}/Plemio-Nerd-KR.zip"
   name "Plemio Nerd KR"

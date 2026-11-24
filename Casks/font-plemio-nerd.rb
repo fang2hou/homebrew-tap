@@ -1,6 +1,6 @@
 cask "font-plemio-nerd" do
-  version "0.1.0"
-  sha256 "25708dde1685de7a71f80bb810989462de20b456f0c4d2ad9e5560e7b35a9510"
+  version "0.1.1"
+  sha256 "cff71f00fc1c186c2ccc3571d3d617f16f351033469d3bd7ed7e1526658489b2"
 
   url "https://github.com/fang2hou/Plemio/releases/download/v#{version}/Plemio-Nerd-TTC.zip"
   name "Plemio Nerd"

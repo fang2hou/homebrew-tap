@@ -1,6 +1,6 @@
 cask "font-plemio-nerd-jp" do
-  version "0.1.0"
-  sha256 "e1cf4c07f4adf60f4fc138f07e0e5dba43c48e1703c5d37674847c2942ca6ffc"
+  version "0.1.1"
+  sha256 "550cc2a76723e7552e0bccc437e7bd4f30d6748869103f4ff532ac8b32b4d889"
 
   url "https://github.com/fang2hou/Plemio/releases/download/v#{version}/Plemio-Nerd-JP.zip"
   name "Plemio Nerd JP"

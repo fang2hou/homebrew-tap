@@ -1,6 +1,6 @@
 cask "font-plemio-sc" do
-  version "0.1.0"
-  sha256 "6c6d0a0bd81c1dcb0acaf0acbf36acc4ad0dc513415178068c0212f9a4abd5e0"
+  version "0.1.1"
+  sha256 "13005fb7679b85fc509123f8ca01407405cf2f2bc49ffcf36c2a75c53d3bb67b"
 
   url "https://github.com/fang2hou/Plemio/releases/download/v#{version}/Plemio-SC.zip"
   name "Plemio SC"

@@ -1,6 +1,6 @@
 cask "font-plemio-kr" do
-  version "0.1.0"
-  sha256 "01fc44497973e2b6434eb2a30511f7b7ab2f19e93b96807a7b12f32f15428774"
+  version "0.1.1"
+  sha256 "1bb4853745b191958b177574cf05a6afe76a7588fa6123de02cbdcc3ae5a3125"
 
   url "https://github.com/fang2hou/Plemio/releases/download/v#{version}/Plemio-KR.zip"
   name "Plemio KR"
